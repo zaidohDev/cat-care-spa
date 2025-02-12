@@ -3,10 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manual de sobrevivência</title>
+    <title>Manual de Sobrevivência</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Menu de Navegação Responsivo -->
+    <nav>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+      <ul id="menu">
+        <li><a href="#acesso">Acesso</a></li>
+        <li><a href="#fotos">Fotos</a></li>
+        <li><a href="#alimentacao">Alimentação</a></li>
+        <li><a href="#temperamento">Temperamento</a></li>
+        <li><a href="#higiene">Higiene</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
     <header>
       <h1>Cronograma de Cuidados para Tom e Nino</h1>
       <p>Que comecem os jogos!</p>
@@ -14,62 +27,131 @@
 
     <section id="acesso">
       <h2>Acesso ao Apartamento</h2>
-      <p>Instruções sobre como acessar o condomínio e o apartamento.</p>
+      <p>
+        O acesso se dará por meio da chave que se encontra na casa de nossa mãe.
+        O endereço você já sabe.
+      </p>
+      <p>
+        A chave menor abre o portão de entrada do condomínio, e a outra chave
+        abre o apartamento, nº 105, segundo andar.
+      </p>
+      <p>
+        Para acessar o bloco, assim que passar pelo portão pequeno, siga em
+        frente até o final do corredor, em seguida dobre à esquerda. Você sairá
+        na garagem de motos.
+      </p>
+      <p>
+        Caminhe em direção à garagem de carros e pegue a escada que estará à sua
+        direita. Suba até o segundo andar (último). O apartamento é o 105.
+      </p>
+      <p><strong>Entre, a casa é sua!</strong></p>
     </section>
 
     <section id="fotos">
       <h2>Fotos dos Gatos</h2>
       <div class="gatos">
-        <img src="tom.jpg" alt="Tom, o gato persa" />
-        <img src="nino.jpg" alt="Nino, o gato siamês" />
+        <figure>
+          <img src="tom.jpg" alt="Tom, o gato persa" />
+          <figcaption>Tom, o gato persa</figcaption>
+        </figure>
+        <figure>
+          <img src="nino.jpg" alt="Nino, o gato siamês" />
+          <figcaption>Nino, o gato siamês</figcaption>
+        </figure>
       </div>
     </section>
 
     <section id="alimentacao">
       <h2>Alimentação e Horários</h2>
-      <p>Detalhes sobre a alimentação dos gatos e os horários das refeições.</p>
+      <p>
+        Os gatos geralmente comem de manhã cedo, à tarde e à noite, mas cuidado:
+        eles vão tentar te enganar com carinha triste! 🥺
+      </p>
+      <p>
+        <strong>Tom</strong> é um verdadeiro manipulador. Ele pede comida o
+        tempo todo, mas quando você coloca, ele come pouco e sai, como se nunca
+        tivesse implorado antes.
+      </p>
+      <p>
+        <strong>Nino</strong> é um obeso descontrolado. Ele fica roçando o nariz
+        no saco da ração, suplicando por algumas migalhas. Se ele pudesse,
+        viveria comendo! 😅
+      </p>
+      <p>
+        As rações são separadas: - <strong>Tom</strong>: Ração para gatos
+        persas. - <strong>Nino</strong>: Ração para gatos castrados.
+      </p>
+      <p>
+        Os potes também são diferentes: - O pote do <strong>Nino</strong> fica
+        sobre uma caixa de suporte. - O pote do <strong>Tom</strong> é uma
+        vasilha menor, azul.
+      </p>
+      <p>
+        A dosagem da comida do Nino é um punhado de ração. Se ele comer rápido e
+        beber água logo depois, pode vomitar.
+      </p>
+      <p>
+        Ah! Os potes de água são esses que estão ao lado de cada comedouro.
+        Mantenha sempre cheios! 💧🐾
+      </p>
     </section>
 
     <section id="temperamento">
       <h2>Temperamento dos Gatos</h2>
-      <p>Informações sobre o comportamento de Tom e Nino.</p>
+      <p>
+        <strong>Tom</strong> é um gato muito introvertido. Ele prefere se
+        esconder em lugares remotos, como debaixo da cama ou em cantos
+        afastados, mesmo que precise ficar sem comer. Por ser peludo, ele adora
+        o frio. À noite, após as 19h, é recomendável ligar o ar condicionado
+        para que ele fique mais confortável.
+      </p>
+      <p>
+        <strong>Nino</strong>, por outro lado, é a vagabundagem em forma de
+        gato. Ele está sempre atrás de atenção, comida e carinho. Se ele
+        pudesse, viveria pedindo mimos o tempo todo!
+      </p>
     </section>
 
     <section id="higiene">
-      <h2>Higiene dos Gatos</h2>
-      <p>Instruções sobre a limpeza da caixa de areia e cuidados gerais.</p>
-    </section>
-
-    <section id="acomodacao-gatos">
-      <h2>Acomodação dos Gatos</h2>
-      <p>Onde os gatos dormem e passam a maior parte do tempo.</p>
-    </section>
-
-    <section id="acomodacao-voluntaria">
-      <h2>Acomodação da Voluntária</h2>
-      <p>Detalhes sobre onde sua irmã ficará hospedada.</p>
-    </section>
-
-    <section id="alimentacao-voluntaria">
-      <h2>Alimentação da Voluntária</h2>
-      <p>Informações sobre onde encontrar comida e utensílios na cozinha.</p>
-    </section>
-
-    <section id="equipamentos">
-      <h2>Equipamentos do Apartamento</h2>
-      <p>Instruções sobre como usar eletrodomésticos e outros equipamentos.</p>
+      <h2>Higiene e Limpeza</h2>
+      <p>
+        Os gatos usam o banheiro social, onde há três caixas de areia. No
+        entanto, o <strong>Nino</strong> não usa nenhuma delas e prefere fazer
+        no chão. Eu recolho os "presentes" dele duas vezes por dia para manter
+        tudo limpo.
+      </p>
+      <p>
+        Vou deixar o banheiro limpo para você não ter o trabalho de limpar, mas
+        caso o <strong>Nino</strong> faça no chão, e se você quiser e puder, é
+        só recolher com a pá dele e jogar no vaso sanitário.
+      </p>
+      <p>
+        Para ajudar a eliminar o odor, use desinfetante e água sanitária no
+        local.
+      </p>
+      <p>
+        O <strong>Tom</strong>, por ser super educado, se pudesse, limparia a
+        bunda com papel higiênico.
+      </p>
     </section>
 
     <section id="contato">
       <h2>Contato para Dúvidas</h2>
       <p>
         Se precisar de ajuda, entre em contato:
-        <a href="tel:+5511999999999">(11) 99999-9999</a>.
+        <a href="tel:+5585999999999">(85) 9****-5033(zap)</a>.
       </p>
+    </section>
+    <section id="musica">
+      <h2>Música Animada</h2>
+      <audio controls autoplay loop>
+        <source src="musica-animada.mp3" type="audio/mpeg" />
+        Seu navegador não suporta a tag de áudio.
+      </audio>
     </section>
 
     <footer>
-      <p>Obrigado por cuidar dos meus gatos! ❤️</p>
+      <p>Obrigado por cuidar dos meus gatitos! ❤️</p>
     </footer>
 
     <script src="script.js"></script>

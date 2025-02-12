@@ -1,6 +1,8 @@
-// Exemplo de interatividade (opcional)
-document.querySelectorAll("section h2").forEach((header) => {
-  header.addEventListener("click", () => {
-    header.nextElementSibling.classList.toggle("hidden");
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("menu");
+
+  menuToggle.addEventListener("click", function () {
+    menu.classList.toggle("show");
   });
 });
