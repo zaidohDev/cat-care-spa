@@ -61,14 +61,6 @@ header {
   text-align: center;
 }
 
-header h1 {
-  font-size: 1.8rem;
-}
-
-header p {
-  font-size: 1rem;
-}
-
 /* SEÇÕES */
 section {
   margin: 20px auto;
@@ -145,6 +137,11 @@ footer {
 @media (max-width: 768px) {
   body {
     padding-top: 50px;
+  }
+
+  /* Adicionando espaço extra no topo do header no mobile */
+  header {
+    margin-top: 20px; /* Adicionada a margem extra acima do header */
   }
 
   /* Menu hambúrguer */
